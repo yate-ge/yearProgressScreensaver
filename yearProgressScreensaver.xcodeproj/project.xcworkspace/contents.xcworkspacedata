@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:countdownScreensaver.xcodeproj">
+      location = "self:/Users/tee/Desktop/countdownScreensaver/yearProgressScreensaver.xcodeproj">
    </FileRef>
 </Workspace>

@@ -8,6 +8,8 @@
 
 #import <ScreenSaver/ScreenSaver.h>
 
-@interface countdownScreensaverView : ScreenSaverView
+@interface yearProgressScreensaverView : ScreenSaverView
+@property (nonatomic, strong) NSView *containerView;
+@property (nonatomic, strong) NSTextField *progressText;
 
 @end

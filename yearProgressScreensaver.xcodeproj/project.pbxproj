@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		56FB8445205624C700B1BB19 /* countdownScreensaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 56FB8444205624C700B1BB19 /* countdownScreensaverView.h */; };
-		56FB8447205624C700B1BB19 /* countdownScreensaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FB8446205624C700B1BB19 /* countdownScreensaverView.m */; };
+		56FB8445205624C700B1BB19 /* yearProgressScreensaverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 56FB8444205624C700B1BB19 /* yearProgressScreensaverView.h */; };
+		56FB8447205624C700B1BB19 /* yearProgressScreensaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FB8446205624C700B1BB19 /* yearProgressScreensaverView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		56FB8441205624C700B1BB19 /* countdownScreensaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = countdownScreensaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
-		56FB8444205624C700B1BB19 /* countdownScreensaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = countdownScreensaverView.h; sourceTree = "<group>"; };
-		56FB8446205624C700B1BB19 /* countdownScreensaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = countdownScreensaverView.m; sourceTree = "<group>"; };
+		56FB8441205624C700B1BB19 /* yearProgressScreensaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yearProgressScreensaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		56FB8444205624C700B1BB19 /* yearProgressScreensaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = yearProgressScreensaverView.h; sourceTree = "<group>"; };
+		56FB8446205624C700B1BB19 /* yearProgressScreensaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yearProgressScreensaverView.m; sourceTree = "<group>"; };
 		56FB8448205624C700B1BB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -32,7 +32,7 @@
 		56FB8437205624C700B1BB19 = {
 			isa = PBXGroup;
 			children = (
-				56FB8443205624C700B1BB19 /* countdownScreensaver */,
+				56FB8443205624C700B1BB19 /* yearProgressScreensaver */,
 				56FB8442205624C700B1BB19 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,19 +40,19 @@
 		56FB8442205624C700B1BB19 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				56FB8441205624C700B1BB19 /* countdownScreensaver.saver */,
+				56FB8441205624C700B1BB19 /* yearProgressScreensaver.saver */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		56FB8443205624C700B1BB19 /* countdownScreensaver */ = {
+		56FB8443205624C700B1BB19 /* yearProgressScreensaver */ = {
 			isa = PBXGroup;
 			children = (
-				56FB8444205624C700B1BB19 /* countdownScreensaverView.h */,
-				56FB8446205624C700B1BB19 /* countdownScreensaverView.m */,
+				56FB8444205624C700B1BB19 /* yearProgressScreensaverView.h */,
+				56FB8446205624C700B1BB19 /* yearProgressScreensaverView.m */,
 				56FB8448205624C700B1BB19 /* Info.plist */,
 			);
-			path = countdownScreensaver;
+			path = yearProgressScreensaver;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -62,16 +62,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56FB8445205624C700B1BB19 /* countdownScreensaverView.h in Headers */,
+				56FB8445205624C700B1BB19 /* yearProgressScreensaverView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		56FB8440205624C700B1BB19 /* countdownScreensaver */ = {
+		56FB8440205624C700B1BB19 /* yearProgressScreensaver */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 56FB844B205624C700B1BB19 /* Build configuration list for PBXNativeTarget "countdownScreensaver" */;
+			buildConfigurationList = 56FB844B205624C700B1BB19 /* Build configuration list for PBXNativeTarget "yearProgressScreensaver" */;
 			buildPhases = (
 				56FB843C205624C700B1BB19 /* Sources */,
 				56FB843D205624C700B1BB19 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = countdownScreensaver;
+			name = yearProgressScreensaver;
 			productName = countdownScreensaver;
-			productReference = 56FB8441205624C700B1BB19 /* countdownScreensaver.saver */;
+			productReference = 56FB8441205624C700B1BB19 /* yearProgressScreensaver.saver */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -98,11 +98,12 @@
 				TargetAttributes = {
 					56FB8440205624C700B1BB19 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 56FB843B205624C700B1BB19 /* Build configuration list for PBXProject "countdownScreensaver" */;
+			buildConfigurationList = 56FB843B205624C700B1BB19 /* Build configuration list for PBXProject "yearProgressScreensaver" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				56FB8440205624C700B1BB19 /* countdownScreensaver */,
+				56FB8440205624C700B1BB19 /* yearProgressScreensaver */,
 			);
 		};
 /* End PBXProject section */
@@ -134,7 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56FB8447205624C700B1BB19 /* countdownScreensaverView.m in Sources */,
+				56FB8447205624C700B1BB19 /* yearProgressScreensaverView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,13 +248,17 @@
 		56FB844C205624C700B1BB19 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 938UZ2L9HP;
-				INFOPLIST_FILE = countdownScreensaver/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/yearProgressScreensaver/Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
-				PRODUCT_BUNDLE_IDENTIFIER = "yate-ge.countdownScreensaver";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yate-ge.yearProgressScreensaver";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Debug;
@@ -261,13 +266,16 @@
 		56FB844D205624C700B1BB19 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 938UZ2L9HP;
-				INFOPLIST_FILE = countdownScreensaver/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/yearProgressScreensaver/Info.plist";
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
-				PRODUCT_BUNDLE_IDENTIFIER = "yate-ge.countdownScreensaver";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yate-ge.yearProgressScreensaver";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				WRAPPER_EXTENSION = saver;
 			};
 			name = Release;
@@ -275,7 +283,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		56FB843B205624C700B1BB19 /* Build configuration list for PBXProject "countdownScreensaver" */ = {
+		56FB843B205624C700B1BB19 /* Build configuration list for PBXProject "yearProgressScreensaver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				56FB8449205624C700B1BB19 /* Debug */,
@@ -284,7 +292,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		56FB844B205624C700B1BB19 /* Build configuration list for PBXNativeTarget "countdownScreensaver" */ = {
+		56FB844B205624C700B1BB19 /* Build configuration list for PBXNativeTarget "yearProgressScreensaver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				56FB844C205624C700B1BB19 /* Debug */,
